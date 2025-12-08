@@ -2,7 +2,12 @@
 
 ---
 
-Using a passive buzzer and a button, this short script allows to play a short melody.
+Using a **passive** buzzer and a button, this script allows to play a short melody.
+Please reference the basic diagram.
+
+(Image Credit: [raspberrypi.com](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html#pico-1-family))
+
+![My plot](diagram.jpg)
 
 A few melodies are included.  As currently set, each button press will play the next melody in the list in a looping fashion.
 
@@ -40,7 +45,5 @@ dasiy_bell,
 
 ]
 ```
-
-Make sure to modify the buzzer and pin values as needed.  
 
 Copy the script your device and it will run automatically.

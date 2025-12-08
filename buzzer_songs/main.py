@@ -5,7 +5,7 @@ from time import sleep
 
 
 buzzer_pin = 15
-button_pin = 11
+button_pin = 16
 
 buzzer_object = PWM(Pin(buzzer_pin))
 button = Pin(button_pin, Pin.IN, Pin.PULL_UP)
