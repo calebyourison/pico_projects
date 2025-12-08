@@ -8,4 +8,4 @@ Prior to using these, you'll want to first install [micropython](https://project
 
 ---
 
-[buzzer_songs](): A simple program that drives a passive buzzer and allows one to compose their own melodies.
+[buzzer_songs](https://github.com/calebyourison/pico_projects/blob/master/buzzer_songs/README.md): A simple program that drives a passive buzzer and allows one to compose their own melodies.
