@@ -14,3 +14,5 @@ Some basic diagrams will be provided here to aid your learning.
 ---
 
 [buzzer_songs](https://github.com/calebyourison/pico_projects/blob/master/buzzer_songs/README.md): A simple program that drives a passive buzzer and allows one to compose their own melodies.
+
+[temperature monitors](https://github.com/calebyourison/pico_projects/blob/master/temperature_monitors/README.md): Measure and display temperatures using DS18B20 sensors.
