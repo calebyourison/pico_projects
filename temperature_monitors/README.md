@@ -32,3 +32,4 @@ sample_frequency_seconds = 2
 fahrenheit: bool = False
 ```
 
+Copy the script to your device. It should begin to print a dictionary of sensors and their temperatures.

@@ -3,8 +3,8 @@ import onewire, ds18x20, time
 
 pins = {
     15: "First",
-   16: "Second",
-   17: "Third",
+    16: "Second",
+    17: "Third",
 }
 
 measurement_period_ms = 750
