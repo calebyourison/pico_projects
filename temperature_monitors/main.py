@@ -1,4 +1,4 @@
-from machine import Pin
+from machine import Pin, WDT
 import onewire, ds18x20, time
 
 pins = {
@@ -9,6 +9,7 @@ pins = {
 
 measurement_period_ms = 750
 sample_frequency_seconds = 2
+watchdog = WDT(timeout=8388)
 
 fahrenheit: bool = False
 
@@ -49,5 +50,6 @@ while True:
         temps[name] = temp
 
     print(temps)
+    watchdog.feed()
     time.sleep(sample_frequency_seconds)
 
